@@ -6,7 +6,7 @@ from urllib.request import urlopen
 from bs4 import BeautifulSoup
 import os
 os.getcwd()
-os.chdir('C:\\Users\\方永騰\\Desktop\\翔\\DIGI\\專案\\Everypixel\\wood_grain\\page1')
+os.chdir('C:\\...')
 
 url = 'https://www.everypixel.com/search?q=+Wood+grain&stocks_type=free'
 r = requests.get(url)
@@ -29,7 +29,7 @@ import requests
 from bs4 import BeautifulSoup
 import os
 os.getcwd()
-os.chdir('C:\\Users\\方永騰\\Desktop\\翔\\DIGI\\專案\\Everypixel\\wood_grain\\page2-8')
+os.chdir('C:\\...')
 
 x = 2
 while x <= 8:
@@ -55,7 +55,7 @@ from bs4 import BeautifulSoup
 import os
 
 os.getcwd()
-os.chdir('C:\\Users\\方永騰\\Desktop\\翔\\DIGI\\專案\\Everypixel\\stone texture\\page1-20')
+os.chdir('C:\\...')
 
 x = 1
 while x <= 20:
